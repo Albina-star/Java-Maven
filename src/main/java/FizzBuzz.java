@@ -7,8 +7,6 @@ public String[] fizzbuzz(int startNumber, int endNumber) {
     String [] numbers = new String [endNumber -startNumber + 1];
     int newNumber = startNumber;
 
-
-
     for (int i = startNumber - startNumber; i < (endNumber - startNumber + 1); i++) { // startNumber - startNumber gives 0
         if (newNumber % 15 == 0) {  // 15 = 3 * 5
             numbers[i] = "FizzBuzz";
@@ -19,8 +17,6 @@ public String[] fizzbuzz(int startNumber, int endNumber) {
         } else {
             numbers[i] = String.valueOf(newNumber); // числа в виде стрингов складываются в массив
         }
-
-
 
         newNumber += 1;
         System.out.println(Arrays.toString(numbers));
