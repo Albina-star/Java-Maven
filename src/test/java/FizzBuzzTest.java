@@ -10,7 +10,7 @@ public class FizzBuzzTest {
         String[] expectedResult = {"1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "Buzz", "11", "Fizz", "13", "14", "FizzBuzz"};
 
         FizzBuzz fizzBuzzObject = new FizzBuzz(); // creating object of FizzBuzz.java
-       String [] actualResult = fizzBuzzObject.fizzbuzz(startNumber, endNumber);
+        String [] actualResult = fizzBuzzObject.fizzbuzz(startNumber, endNumber);
 
         Assert.assertArrayEquals(expectedResult, actualResult);
         //Assert.assertNotEquals(expectedResult, actualResult); // negative test, we put wrong data
